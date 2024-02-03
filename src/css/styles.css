@@ -102,6 +102,7 @@ ul.gallery {
 
 .image-card-details {
   display: flex;
+  justify-content: space-around;
 }
 
 .image-card-likes,
