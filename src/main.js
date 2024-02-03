@@ -66,10 +66,10 @@ function displayImages(images) {
             <a href="${image.largeImageURL}" data-lightbox="gallery">
                 <img src="${image.webformatURL}" alt="${image.tags}" class="image-card-image">
                 <div class="image-card-details">
-                    <span class="image-card-likes"><span class="bold">Likes:</span> ${image.likes}</span>
-                    <span class="image-card-views"><span class="bold">Views: </span>${image.views}</span>
-                    <span class="image-card-comments"><span class="bold">Comments: </span>${image.comments}</span>
-                    <span class="image-card-downloads"><span class="bold">Downloads: </span>${image.downloads}</span>
+                    <span class="image-card-likes"><span class="bold">Likes:</span><br>${image.likes}</span>
+                    <span class="image-card-views"><span class="bold">Views:</span><br>${image.views}</span>
+                    <span class="image-card-comments"><span class="bold">Comments:</span><br>${image.comments}</span>
+                    <span class="image-card-downloads"><span class="bold">Downloads:</span><br>${image.downloads}</span>
                 </div>
             </a>
         </li>
